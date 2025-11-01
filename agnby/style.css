@@ -109,7 +109,8 @@ body{
   margin: 20px auto;
   gap: 10px;
   max-width: 500px;
-  position: relative; /* علشان النتائج تظهر تحته */
+  position: relative;
+  z-index: 100000000; /* 🟢 خلي مربع البحث فوق كل حاجة */
 }
 
 .search-bar input {
@@ -145,20 +146,21 @@ body{
 }
 
 /* =============================
-   📋 نتائج البحث (Drop Down)
+   📋 نتائج البحث (تظهر فوق الكل)
 ============================= */
 .search-results {
-  position: absolute;
-  top: 100%;         /* مباشرة تحت مربع البحث */
-  left: 0;
-  width: 100%;
+  position: fixed; /* 🟢 خليها ثابتة في الشاشة مش تبع أي div */
+  top: calc(100% + 10px); /* يظهر تحت شريط البحث شوية */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 500px;
   background: #111;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(255, 255, 0, 0.1);
+  box-shadow: 0 0 20px rgba(255, 255, 0, 0.3);
   display: none;
   max-height: 250px;
   overflow-y: auto;
-  z-index: 9999999;
+  z-index: 999999999; /* 🔝 أعلى طبقة ممكنة */
 }
 
 /* 🔹 عنصر نتيجة البحث */
@@ -174,18 +176,11 @@ body{
 
 /* 🔒 تثبيت صورة البحث */
 .search-item img.search-thumb {
-  width: 35px !important;       /* تثبيت العرض */
-  height: 50px !important;      /* تثبيت الطول */
-  min-width: 35px !important;
-  min-height: 50px !important;
-  max-width: 35px !important;
-  max-height: 50px !important;
+  width: 35px !important;
+  height: 50px !important;
   object-fit: cover !important;
   border-radius: 4px;
   flex-shrink: 0;
-  display: inline-block !important;
-  transform: none !important;   /* منع أي تكبير تلقائي */
-  scale: 1 !important;          /* لو في CSS بيعمل zoom */
 }
 
 /* 🔹 النص بجانب الصورة */
@@ -203,12 +198,11 @@ body{
   color: #000;
 }
 
-
-
 .no-results {
   padding: 12px 15px;
   color: #aaa;
 }
+
 
 /* =============================
    📱 Responsive
