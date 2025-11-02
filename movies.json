@@ -133,6 +133,13 @@
     "year": "2025"
   },
   {
+    "title": "Jurassic World Rebirth",
+    "url": "agnby/jurassicWorldRebirth/index.html",
+    "poster": "agnby/jurassicWorldRebirth/poster.jpg",
+    "rating": "6.4",
+    "year": "2025"
+  },
+  {
     "title": "Inside Furioza 2025",
     "url": "agnby/insidefurioza/index.html",
     "poster": "agnby/insidefurioza/poster.jpg",
@@ -231,6 +238,13 @@
     "year": "2013"
   },
   {
+    "title": "Red Notice 2021",
+    "url": "agnby/RedNotice/index.html",
+    "poster": "agnby/RedNotice/poster.jpg",
+    "rating": "6.7",
+    "year": "2021"
+  },
+  {
     "title": "المشروع إكس",
     "url": "movies/المشروع_اكس/المشروع_إكس.html",
     "poster": "movies/المشروع_اكس/المشروع_إكس_poster.jpg",
@@ -263,6 +277,13 @@
     "url": "movies/ريستارت/ريستارت.html",
     "poster": "movies/ريستارت/ريستارت_poster.jpg",
     "rating": "5.4",
+    "year": "2025"
+  },
+  {
+    "title": "ضي (سيرة أهل الضي)",
+    "url": "movies/ضي/index.html",
+    "poster": "movies/ضي/poster.jpg",
+    "rating": "7.6",
     "year": "2025"
   },
   {
