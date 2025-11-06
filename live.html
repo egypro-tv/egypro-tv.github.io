@@ -44,16 +44,38 @@
 
 
 
-<section class="section-title">
-<h2 id="section-title">Live Coming Soon</h2>
+<section class="watch-section" id="watch-section">
+  <h2 class="watch-title">Live</h2>
+
+  <div class="server-buttons">
+    <div class="episodes-container">
+      <button class="btn2" onclick="changeFrame('https://direct.aflam4you.net/playeraf.php?vid=68&aflam_s=1&aflam_k=ff09665543234455')">BIN SPORT 1</button>
+      <button class="btn2" onclick="changeFrame('https://direct.aflam4you.net/playeraf.php?vid=2&aflam_s=1&aflam_k=ff09665543234455')">BIN SPORT 2</button>
+      <button class="btn2" onclick="changeFrame('https://direct.aflam4you.net/playeraf.php?vid=1&aflam_s=1&aflam_k=ff09665543234455')">BIN SPORT 3</button>
+      <button class="btn2" onclick="changeFrame('https://direct.aflam4you.net/playeraf.php?vid=3&aflam_s=1&aflam_k=ff09665543234455')">BIN SPORT 4</button>
+      <button class="btn2" onclick="changeFrame('https://direct.aflam4you.net/playeraf.php?vid=73&aflam_s=1&aflam_k=ff09665543234455')">BIN SPORT 5</button>
+    </div>
+  </div>
+  <p></p>
+
+  <div class="video-player">
+    <iframe
+      id="videoFrame"
+      allowfullscreen
+      frameborder="0"
+      src="https://direct.aflam4you.net/playeraf.php?vid=68&aflam_s=1&aflam_k=ff09665543234455"
+      title="بث مباشر"
+      style="width:100%;height:500px;border:none;"
+    ></iframe>
+  </div>
 </section>
 
-<section class="movie-grid" id="movie-grid">
-
-
-
-
-</section>
+<script>
+  function changeFrame(url) {
+    const frame = document.getElementById('videoFrame');
+    frame.src = url;
+  }
+</script>
 
 
 </main>
@@ -63,6 +85,6 @@
 
 <script src="search.js"></script>
 
-<script src="sw.js"></script>
-<script>(function(s){s.dataset.zone='10146428',s.src='https://al5sm.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script><script>(function(s){s.dataset.zone='10146525',s.src='https://gizokraijaw.net/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script></body>
+
+</body>
 </html>
