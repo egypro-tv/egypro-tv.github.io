@@ -38,42 +38,37 @@
 
 
 <main>
-
-
-
-
-
-
 <section class="watch-section" id="watch-section">
   <h2 class="watch-title">Live</h2>
 
-  <div class="server-buttons">
-    <div class="episodes-container">
-      <button class="btn2" onclick="changeFrame('https://direct.aflam4you.net/playeraf.php?vid=68&aflam_s=1&aflam_k=ff09665543234455')">Bein SPORT 1</button>
-      <button class="btn2" onclick="changeFrame('https://direct.aflam4you.net/playeraf.php?vid=2&aflam_s=1&aflam_k=ff09665543234455')">Bein SPORT 2</button>
-      <button class="btn2" onclick="changeFrame('https://direct.aflam4you.net/playeraf.php?vid=1&aflam_s=1&aflam_k=ff09665543234455')">Bein SPORT 3</button>
-      <button class="btn2" onclick="changeFrame('https://direct.aflam4you.net/playeraf.php?vid=3&aflam_s=1&aflam_k=ff09665543234455')">Bein SPORT 4</button>
-      <button class="btn2" onclick="changeFrame('https://direct.aflam4you.net/playeraf.php?vid=73&aflam_s=1&aflam_k=ff09665543234455')">Bein SPORT 5</button>
-      <button class="btn2" onclick="changeFrame('https://www.elahmad.com/tv/radiant.php?id=alahly_tv')">AL AHLY</button>
-      <button class="btn2" onclick="changeFrame('https://www.elahmad.com/tv/radiant.php?id=zamalek')">Zamalek Sports</button>
-	  <button class="btn2" onclick="changeFrame('https://www.elahmad.com/tv/mobiletv/glarb.php?id=on_sport')">ON SPORT</button>
-      <button class="btn2" onclick="changeFrame('https://www.elahmad.com/tv/mobiletv/glarb.php?id=on_time_sports1')">ON TIME SPORT 1</button>
-      <button class="btn2" onclick="changeFrame('https://www.elahmad.com/tv/mobiletv/glarb.php?id=on_time_sports2')">ON TIME SPORT 2</button>
-      <button class="btn2" onclick="changeFrame('https://www.elahmad.com/tv/radiant.php?id=nile_sport')">Nile Sport</button>
+  <div class="watch-container">
+    <!-- الأزرار -->
+    <div class="server-buttons">
+      <div class="episodes-container">
+        <button class="btn2" onclick="changeFrame('https://direct.aflam4you.net/playeraf.php?vid=68&aflam_s=1&aflam_k=ff09665543234455')">Bein SPORT 1</button>
+        <button class="btn2" onclick="changeFrame('https://direct.aflam4you.net/playeraf.php?vid=2&aflam_s=1&aflam_k=ff09665543234455')">Bein SPORT 2</button>
+        <button class="btn2" onclick="changeFrame('https://direct.aflam4you.net/playeraf.php?vid=1&aflam_s=1&aflam_k=ff09665543234455')">Bein SPORT 3</button>
+        <button class="btn2" onclick="changeFrame('https://direct.aflam4you.net/playeraf.php?vid=3&aflam_s=1&aflam_k=ff09665543234455')">Bein SPORT 4</button>
+        <button class="btn2" onclick="changeFrame('https://direct.aflam4you.net/playeraf.php?vid=73&aflam_s=1&aflam_k=ff09665543234455')">Bein SPORT 5</button>
+        <button class="btn2" onclick="changeFrame('https://www.elahmad.com/tv/radiant.php?id=alahly_tv')">AL AHLY</button>
+        <button class="btn2" onclick="changeFrame('https://www.elahmad.com/tv/radiant.php?id=zamalek')">Zamalek Sports</button>
+        <button class="btn2" onclick="changeFrame('https://www.elahmad.com/tv/mobiletv/glarb.php?id=on_sport')">ON SPORT</button>
+        <button class="btn2" onclick="changeFrame('https://www.elahmad.com/tv/mobiletv/glarb.php?id=on_time_sports1')">ON TIME SPORT 1</button>
+        <button class="btn2" onclick="changeFrame('https://www.elahmad.com/tv/mobiletv/glarb.php?id=on_time_sports2')">ON TIME SPORT 2</button>
+        <button class="btn2" onclick="changeFrame('https://www.elahmad.com/tv/radiant.php?id=nile_sport')">Nile Sport</button>
+      </div>
+    </div>
 
-   </div>
-  </div>
-  <p></p>
-
-  <div class="video-player">
-    <iframe
-      id="videoFrame"
-      allowfullscreen
-      frameborder="0"
-      src="https://direct.aflam4you.net/playeraf.php?vid=68&aflam_s=1&aflam_k=ff09665543234455"
-      title="بث مباشر"
-      style="width:100%;height:500px;border:none;"
-    ></iframe>
+    <!-- الفيديو -->
+    <div class="video-player">
+      <iframe
+        id="videoFrame"
+        allowfullscreen
+        frameborder="0"
+        src="https://direct.aflam4you.net/playeraf.php?vid=68&aflam_s=1&aflam_k=ff09665543234455"
+        title="بث مباشر"
+      ></iframe>
+    </div>
   </div>
 </section>
 
@@ -81,8 +76,97 @@
   function changeFrame(url) {
     const frame = document.getElementById('videoFrame');
     frame.src = url;
+
+    // ✅ السكرول للفريم على الموبايل فقط
+    if (window.innerWidth <= 768) {
+      frame.scrollIntoView({
+        behavior: 'smooth',
+        block: 'center'
+      });
+    }
   }
 </script>
+
+<style>
+  /* 📺 الشكل العام */
+  .watch-section {
+    margin: 20px;
+    font-family: sans-serif;
+  }
+
+  .watch-title {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  .watch-container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  /* 🎚️ الأزرار */
+  .server-buttons {
+    width: 220px;
+    flex-shrink: 0;
+  }
+
+  .episodes-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .btn2 {
+    background-color: #1c1c1c;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: left;
+    font-size: 14px;
+  }
+
+  .btn2:hover {
+    background-color: #ff4444;
+  }
+
+  /* 🎥 الفيديو */
+  .video-player {
+    flex: 1;
+  }
+
+  .video-player iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+    border-radius: 10px;
+  }
+
+  /* 📱 موبايل */
+  @media (max-width: 768px) {
+    .watch-container {
+      flex-direction: column;
+    }
+
+    .server-buttons {
+      width: 100%;
+    }
+
+    .btn2 {
+      text-align: center;
+      font-size: 16px;
+    }
+
+    .video-player iframe {
+      height: 350px;
+    }
+  }
+</style>
+
 
 
 </main>
