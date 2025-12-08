@@ -119,6 +119,41 @@
     "year": "2025"
   },
   {
+    "title": "The Shadow's Edge 2025",
+    "url": "agnby/The_Shadows_Edge/index.html",
+    "poster": "agnby/The_Shadows_Edge/poster.jpg",
+    "rating": "6.483",
+    "year": "2025"
+  },
+  {
+    "title": "Jurassic World Dominion 2022",
+    "url": "agnby/Jurassic_World_Dominion/index.html",
+    "poster": "agnby/Jurassic_World_Dominion/poster.jpg",
+    "rating": "6.631",
+    "year": "2022"
+  },
+  {
+    "title": "Jurassic World: Fallen Kingdom 2018",
+    "url": "agnby/Jurassic_World_Fallen_Kingdom/index.html",
+    "poster": "agnby/Jurassic_World_Fallen_Kingdom/poster.jpg",
+    "rating": "6.537",
+    "year": "2018"
+  },
+  {
+    "title": "Jurassic World 2015",
+    "url": "agnby/Jurassic_World/index.html",
+    "poster": "agnby/Jurassic_World/poster.jpg",
+    "rating": "6.7",
+    "year": "2015"
+  },
+  {
+    "title": "The BFG 2016",
+    "url": "agnby/The_BFG/index.html",
+    "poster": "agnby/The_BFG/poster.jpg",
+    "rating": "6.286",
+    "year": "2016"
+  },
+  {
     "title": "Diablo 2025",
     "url": "agnby/Diablo/index.html",
     "poster": "agnby/Diablo/poster.jpg",
@@ -714,6 +749,13 @@
     "year": "2025"
   },
   {
+    "title": "الهنا اللي أنا فيه 2024",
+    "url": "agnby/الهنا_اللي_أنا_فيه/index.html",
+    "poster": "agnby/الهنا_اللي_أنا_فيه/poster.jpg",
+    "rating": "5.0",
+    "year": "2024"
+  },
+  {
     "title": "البحث عن منفذ لخروج السيد رامبو 2025",
     "url": "agnby/البحث_عن_منفذ_لخروج_السيد_رامبو/index.html",
     "poster": "agnby/البحث_عن_منفذ_لخروج_السيد_رامبو/poster.jpg",
@@ -817,5 +859,208 @@
     "poster": "movies/ولاد_رزق/ولاد_رزق_poster.jpg",
     "rating": "7.208",
     "year": "2015"
+  },
+  {
+    "title": "The Lion King 1994",
+    "url": "anminmoveEG/The_Lion_King/index.html",
+    "poster": "anminmoveEG/The_Lion_King/poster.jpg",
+    "rating": "8.256",
+    "year": "1994"
+  },
+  {
+    "title": "Monsters, Inc. 2001",
+    "url": "anminmoveEG/Monsters,_Inc./index.html",
+    "poster": "anminmoveEG/Monsters,_Inc./poster.jpg",
+    "rating": "7.847",
+    "year": "2001"
+  },
+  {
+    "title": "Finding Nemo 2003",
+    "url": "anminmoveEG/Finding_Nemo/index.html",
+    "poster": "anminmoveEG/Finding_Nemo/poster.jpg",
+    "rating": "7.817",
+    "year": "2003"
+  },
+  {
+    "title": "Tangled 2010",
+    "url": "anminmoveEG/Tangled/index.html",
+    "poster": "anminmoveEG/Tangled/poster.jpg",
+    "rating": "7.609",
+    "year": "2010"
+  },
+  {
+    "title": "Hercules 1997",
+    "url": "anminmoveEG/Hercules/index.html",
+    "poster": "anminmoveEG/Hercules/poster.jpg",
+    "rating": "7.495",
+    "year": "1997"
+  },
+  {
+    "title": "Toy Story 1995",
+    "url": "anminmoveEG/Toy_Story/index.html",
+    "poster": "anminmoveEG/Toy_Story/poster.jpg",
+    "rating": "7.971",
+    "year": "1995"
+  },
+  {
+    "title": "The Lion King 1½ 2004",
+    "url": "anminmoveEG/The_Lion_King_1½/index.html",
+    "poster": "anminmoveEG/The_Lion_King_1½/poster.jpg",
+    "rating": "6.579",
+    "year": "2004"
+  },
+  {
+    "title": "The Lion King II: Simba's Pride 1998",
+    "url": "anminmoveEG/The_Lion_King_II_Simba's_Pride/index.html",
+    "poster": "anminmoveEG/The_Lion_King_II_Simba's_Pride/poster.jpg",
+    "rating": "6.942",
+    "year": "1998"
+  },
+  {
+    "title": "The Lion King 1994",
+    "url": "anminmoveEG/The_Lion_King/index.html",
+    "poster": "anminmoveEG/The_Lion_King/poster.jpg",
+    "rating": "8.256",
+    "year": "1994"
+  },
+  {
+    "title": "Beauty and the Beast 1991",
+    "url": "anminmoveEG/Beauty_and_the_Beast/index.html",
+    "poster": "anminmoveEG/Beauty_and_the_Beast/poster.jpg",
+    "rating": "7.73",
+    "year": "1991"
+  },
+  {
+    "title": "Monsters, Inc. 2001",
+    "url": "anminmoveEG/Monsters,_Inc./index.html",
+    "poster": "anminmoveEG/Monsters,_Inc./poster.jpg",
+    "rating": "7.847",
+    "year": "2001"
+  },
+  {
+    "title": "The Princess and the Frog 2009",
+    "url": "anminmoveEG/The_Princess_and_the_Frog/index.html",
+    "poster": "anminmoveEG/The_Princess_and_the_Frog/poster.jpg",
+    "rating": "7.214",
+    "year": "2009"
+  },
+  {
+    "title": "Finding Nemo 2003",
+    "url": "anminmoveEG/Finding_Nemo/index.html",
+    "poster": "anminmoveEG/Finding_Nemo/poster.jpg",
+    "rating": "7.817",
+    "year": "2003"
+  },
+  {
+    "title": "Elemental 2023",
+    "url": "anminmoveEG/Elemental/index.html",
+    "poster": "anminmoveEG/Elemental/poster.jpg",
+    "rating": "7.593",
+    "year": "2023"
+  },
+  {
+    "title": "Monsters University 2013",
+    "url": "anminmoveEG/Monsters_University/index.html",
+    "poster": "anminmoveEG/Monsters_University/poster.jpg",
+    "rating": "7.044",
+    "year": "2013"
+  },
+  {
+    "title": "Turning Red 2022",
+    "url": "anminmoveEG/Turning_Red/index.html",
+    "poster": "anminmoveEG/Turning_Red/poster.jpg",
+    "rating": "7.328",
+    "year": "2022"
+  },
+  {
+    "title": "Migration 2023",
+    "url": "anminmoveEG/Migration/index.html",
+    "poster": "anminmoveEG/Migration/poster.jpg",
+    "rating": "7.378",
+    "year": "2023"
+  },
+  {
+    "title": "Mulan 1998",
+    "url": "anminmoveEG/Mulan/index.html",
+    "poster": "anminmoveEG/Mulan/poster.jpg",
+    "rating": "7.9",
+    "year": "1998"
+  },
+  {
+    "title": "Tangled 2010",
+    "url": "anminmoveEG/Tangled/index.html",
+    "poster": "anminmoveEG/Tangled/poster.jpg",
+    "rating": "7.609",
+    "year": "2010"
+  },
+  {
+    "title": "Toy Story 4 2019",
+    "url": "anminmoveEG/Toy_Story_4/index.html",
+    "poster": "anminmoveEG/Toy_Story_4/poster.jpg",
+    "rating": "7.47",
+    "year": "2019"
+  },
+  {
+    "title": "Toy Story 3 2010",
+    "url": "anminmoveEG/Toy_Story_3/index.html",
+    "poster": "anminmoveEG/Toy_Story_3/poster.jpg",
+    "rating": "7.804",
+    "year": "2010"
+  },
+  {
+    "title": "Toy Story 2 1999",
+    "url": "anminmoveEG/Toy_Story_2/index.html",
+    "poster": "anminmoveEG/Toy_Story_2/poster.jpg",
+    "rating": "7.6",
+    "year": "1999"
+  },
+  {
+    "title": "Toy Story 1995",
+    "url": "anminmoveEG/Toy_Story/index.html",
+    "poster": "anminmoveEG/Toy_Story/poster.jpg",
+    "rating": "7.971",
+    "year": "1995"
+  },
+  {
+    "title": "Up 2009",
+    "url": "anminmoveEG/Up/index.html",
+    "poster": "anminmoveEG/Up/poster.jpg",
+    "rating": "7.96",
+    "year": "2009"
+  },
+  {
+    "title": "Hercules 1997",
+    "url": "anminmoveEG/Hercules/index.html",
+    "poster": "anminmoveEG/Hercules/poster.jpg",
+    "rating": "7.495",
+    "year": "1997"
+  },
+  {
+    "title": "Raya and the Last Dragon 2021",
+    "url": "anminmoveEG/Raya_and_the_Last_Dragon/index.html",
+    "poster": "anminmoveEG/Raya_and_the_Last_Dragon/poster.jpg",
+    "rating": "7.816",
+    "year": "2021"
+  },
+  {
+    "title": "Lilo & Stitch 2002",
+    "url": "anminmoveEG/Lilo_&_Stitch/index.html",
+    "poster": "anminmoveEG/Lilo_&_Stitch/poster.jpg",
+    "rating": "7.6",
+    "year": "2002"
+  },
+  {
+    "title": "Zootopia 2 2025",
+    "url": "anminmoveEG/Zootopia_2/index.html",
+    "poster": "anminmoveEG/Zootopia_2/poster.jpg",
+    "rating": "7.7",
+    "year": "2025"
+  },
+  {
+    "title": "Zootopia 2016",
+    "url": "anminmoveEG/Zootopia1/index.html",
+    "poster": "anminmoveEG/Zootopia1/poster.jpg",
+    "rating": "7.755",
+    "year": "2016"
   }
 ]
