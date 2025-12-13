@@ -119,6 +119,55 @@
     "year": "2025"
   },
   {
+    "title": "Harry Potter and the Half-Blood Prince 2009",
+    "url": "agnby/Harry_Potter_and_the_Half-Blood_Prince/index.html",
+    "poster": "agnby/Harry_Potter_and_the_Half-Blood_Prince/poster.jpg",
+    "rating": "7.682",
+    "year": "2009"
+  },
+  {
+    "title": "Harry Potter and the Deathly Hallows: Part 1 2010",
+    "url": "agnby/Harry_Potter_and_the_Deathly_Hallows_Part_1/index.html",
+    "poster": "agnby/Harry_Potter_and_the_Deathly_Hallows_Part_1/poster.jpg",
+    "rating": "7.738",
+    "year": "2010"
+  },
+  {
+    "title": "Harry Potter and the Deathly Hallows: Part 2 2011",
+    "url": "agnby/Harry_Potter_and_the_Deathly_Hallows_Part_2/index.html",
+    "poster": "agnby/Harry_Potter_and_the_Deathly_Hallows_Part_2/poster.jpg",
+    "rating": "8.1",
+    "year": "2011"
+  },
+  {
+    "title": "Harry Potter and the Goblet of Fire 2005",
+    "url": "agnby/Harry_Potter_and_the_Goblet_of_Fire/index.html",
+    "poster": "agnby/Harry_Potter_and_the_Goblet_of_Fire/poster.jpg",
+    "rating": "7.801",
+    "year": "2005"
+  },
+  {
+    "title": "Harry Potter and the Prisoner of Azkaban 2004",
+    "url": "agnby/Harry_Potter_and_the_Prisoner_of_Azkaban/index.html",
+    "poster": "agnby/Harry_Potter_and_the_Prisoner_of_Azkaban/poster.jpg",
+    "rating": "8.01",
+    "year": "2004"
+  },
+  {
+    "title": "Harry Potter and the Chamber of Secrets 2002",
+    "url": "agnby/Harry_Potter_and_the_Chamber_of_Secrets/index.html",
+    "poster": "agnby/Harry_Potter_and_the_Chamber_of_Secrets/poster.jpg",
+    "rating": "7.704",
+    "year": "2002"
+  },
+  {
+    "title": "Traumatika 2025",
+    "url": "agnby/Traumatika/index.html",
+    "poster": "agnby/Traumatika/poster.jpg",
+    "rating": "5.333",
+    "year": "2025"
+  },
+  {
     "title": "The Shadow's Edge 2025",
     "url": "agnby/The_Shadows_Edge/index.html",
     "poster": "agnby/The_Shadows_Edge/poster.jpg",
@@ -750,14 +799,14 @@
   },
   {
     "title": "الهنا اللي أنا فيه 2024",
-    "url": "agnby/الهنا_اللي_أنا_فيه/index.html",
+    "url": "movies/الهنا_اللي_أنا_فيه/index.html",
     "poster": "agnby/الهنا_اللي_أنا_فيه/poster.jpg",
     "rating": "5.0",
     "year": "2024"
   },
   {
     "title": "البحث عن منفذ لخروج السيد رامبو 2025",
-    "url": "agnby/البحث_عن_منفذ_لخروج_السيد_رامبو/index.html",
+    "url": "movies/البحث_عن_منفذ_لخروج_السيد_رامبو/index.html",
     "poster": "agnby/البحث_عن_منفذ_لخروج_السيد_رامبو/poster.jpg",
     "rating": "7.071",
     "year": "2025"
@@ -869,8 +918,8 @@
   },
   {
     "title": "Monsters, Inc. 2001",
-    "url": "anminmoveEG/Monsters,_Inc./index.html",
-    "poster": "anminmoveEG/Monsters,_Inc./poster.jpg",
+    "url": "anminmoveEG/Monsters_In./index.html",
+    "poster": "anminmoveEG/Monsters_Inc/poster.jpg",
     "rating": "7.847",
     "year": "2001"
   },
@@ -932,8 +981,8 @@
   },
   {
     "title": "Monsters, Inc. 2001",
-    "url": "anminmoveEG/Monsters,_Inc./index.html",
-    "poster": "anminmoveEG/Monsters,_Inc./poster.jpg",
+    "url": "anminmoveEG/Monsters_Inc/index.html",
+    "poster": "anminmoveEG/Monsters_Inc/poster.jpg",
     "rating": "7.847",
     "year": "2001"
   },
