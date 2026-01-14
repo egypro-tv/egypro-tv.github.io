@@ -5,7 +5,7 @@ const resultBox = document.getElementById('searchResults');
 
 // 📥 تحميل ملف الأفلام
 async function loadMovies() {
-  const paths = ['movies.json', '../movies.json', '../../movies.json', '../../../movies.json'];
+  const paths = ['../../movies.json'];
   for (const path of paths) {
     try {
       const response = await fetch(path);

@@ -1,166 +1,0 @@
-<!DOCTYPE html>
-<html dir="rtl" lang="ar">
-<head>
-<meta charset="utf-8"/>
-<meta content="width=device-width,initial-scale=1" name="viewport"/>
-<title>إش إش - EGY PRO</title>
-<link href="../style.css" rel="stylesheet"/>
-<link href="favicon.ico" rel="icon" type="image/x-icon"/></head>
-<body>
-<header class="site-header">
-  <!-- اللينكات في المنتصف -->
-  <nav class="nav-links">
-    <a href="../../index.html">الصفحه الرئيسيه</a>
-    <a href="../../egyptian.html">افلام عربية</a>
-    <a href="../../foreign.html">أفلام أجنبي</a>
-    <a href="../../seriesar.html">مسلسلات عربية</a>
-    <a href="../../seriesen.html">مسلسلات اجنبي</a>
-    <a href="../../anime.html">انمي</a>
-    <a href="../../live.html" class="active-link">بث مباشر كورة</a>
-  </nav>
-
-  <!-- اللوجو على اليمين -->
-  <div class="logo-box" onclick="location.href='../../index.html'">
-    <img src="../../favicon.ico" alt="logo" class="logo-img">
-  </div>
-</header>
-
-<!-- 🔍 مربع البحث تحت الهيدر -->
-
-<div class="search-bar">
-  <input type="text" id="searchInput" placeholder="ابحث عن فيلم أو مسلسل..." />
-  <button id="searchBtn">بحث</button>
-  <div id="searchResults" class="search-results"></div>
-</div>
-
-<main>
-
-
-
-
-  <section class="movie-hero" style="background-image: url('see.jpg');">
-    <div class="hero-overlay"></div>
-    <div class="hero-content">
-      <div class="poster-col">
-        <img alt="إش إش" class="big-poster" src="se.jpg"/>
-      </div>
-      <div class="info-col">
-        <h1 class="movie-title"> إش إش - الحلقة 27 <span class="year">(2025)</span></h1>
-        <div class="meta">
-          <span>⭐ 4.0</span>
-          <span>مناسب للعائلة</span>
-        </div>
-        <p class="overview"><strong>الوصف:</strong> ورثت إش إش جمال والدتها وفقرها، لتجد نفسها راقصة رغما عنها. تدخل صدفة عالم آل الجريتلي، لتكتشف أن حاضرها المأساوي ليس إلا امتدادا لأسرار عائلية مدفونة لدى هذه العائلة.</p>
-        <div class="actions">
-          <a class="btn" href="https://www.youtube.com/watch?v=7x5Ba4C-mWI" rel="noopener" target="_blank">مشاهدة الإعلان</a>
-          <a class="btn2" href="#watch-section">مشاهدة و تحميل المسلسل</a>
-        </div>
-        <div class="credits-section">
-          <h4>الممثلون</h4>
-          <ul>
-            <li>مي عمر <span style="color:var(--muted); font-size:0.9em;">(Shorouk (Esh Esh))</span></li>
-<li>ماجد المصري <span style="color:var(--muted); font-size:0.9em;">(Ragab El-Gritly)</span></li>
-<li>هالة صدقي <span style="color:var(--muted); font-size:0.9em;">(Shadia)</span></li>
-<li>إدوارد</li>
-<li>إنتصار</li>
-<li>دينا</li>
-<li>طارق النهري</li>
-<li>محمد الشرنوبي <span style="color:var(--muted); font-size:0.9em;">(Mokhtar)</span></li>
-<li>شيماء سيف</li>
-<li>علاء مرسي</li>
-
-          </ul>
-          <div class="crew-info">
-            <p><strong>المخرج:</strong> محمد سامي</p>
-            <p><strong>المنتج:</strong> صادق الصباح</p>
-          </div>
-        </div>
-        <div class="extra">
-          <p><strong>اللغة:</strong> العربية</p>
-          <p><strong>شركة الإنتاج:</strong> صادق الصباح</p>
-          <p><strong>الحالة:</strong> Ended</p>
-          <p><strong>الشعار:</strong> ""</p>
-          <p><strong>الأصلية:</strong> إش إش</p>
-          <p><strong>الشعبية:</strong> 2.2305</p>
-        </div>
-      </div>
-    </div>
-  </section>
-</main>
-
-<style>
-  .episodes-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;  /* ✅ يخليهم في المنتصف */
-    gap: 10px;                /* ✅ مسافة بين الأزرار */
-    max-width: 900px;         /* عرض أقصى للمجموعة */
-    margin: 40px auto;        /* مساحة من فوق وتحت + توسيط */
-  }
-
-  .btn3 {
-    background: #ffcc00;      /* 🟡 أصفر */
-    color: #000;
-    border: none;
-    padding: 10px 15px;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 6px;
-    transition: 0.3s;
-    font-weight: bold;
-    min-width: 100px;         /* ✅ يخليهم بنفس العرض تقريبًا */
-    text-align: center;
-  }
-
-  .btn3:hover {
-    background: #e6b800;      /* 🟡 أصفر أغمق عند التمرير */
-  }
-</style>
-<div class="episodes-container">
-<button class="btn3" onclick="location.href='1.html'">حلقة 1</button>
-<button class="btn3" onclick="location.href='2.html'">حلقة 2</button>
-<button class="btn3" onclick="location.href='3.html'">حلقة 3</button>
-<button class="btn3" onclick="location.href='4.html'">حلقة 4</button>
-<button class="btn3" onclick="location.href='5.html'">حلقة 5</button>
-<button class="btn3" onclick="location.href='6.html'">حلقة 6</button>
-<button class="btn3" onclick="location.href='7.html'">حلقة 7</button>
-<button class="btn3" onclick="location.href='8.html'">حلقة 8</button>
-<button class="btn3" onclick="location.href='9.html'">حلقة 9</button>
-<button class="btn3" onclick="location.href='10.html'">حلقة 10</button>
-<button class="btn3" onclick="location.href='11.html'">حلقة 11</button>
-<button class="btn3" onclick="location.href='12.html'">حلقة 12</button>
-<button class="btn3" onclick="location.href='13.html'">حلقة 13</button>
-<button class="btn3" onclick="location.href='14.html'">حلقة 14</button>
-<button class="btn3" onclick="location.href='15.html'">حلقة 15</button>
-<button class="btn3" onclick="location.href='16.html'">حلقة 16</button>
-<button class="btn3" onclick="location.href='17.html'">حلقة 17</button>
-<button class="btn3" onclick="location.href='18.html'">حلقة 18</button>
-<button class="btn3" onclick="location.href='19.html'">حلقة 19</button>
-<button class="btn3" onclick="location.href='20.html'">حلقة 20</button>
-<button class="btn3" onclick="location.href='21.html'">حلقة 21</button>
-<button class="btn3" onclick="location.href='22.html'">حلقة 22</button>
-<button class="btn3" onclick="location.href='23.html'">حلقة 23</button>
-<button class="btn3" onclick="location.href='24.html'">حلقة 24</button>
-<button class="btn3" onclick="location.href='25.html'">حلقة 25</button>
-<button class="btn3" onclick="location.href='26.html'">حلقة 26</button>
-<button class="btn3" onclick="location.href='27.html'">حلقة 27</button>
-<button class="btn3" onclick="location.href='28.html'">حلقة 28</button>
-<button class="btn3" onclick="location.href='29.html'">حلقة 29</button>
-<button class="btn3" onclick="location.href='30.html'">حلقة 30</button>
-</div>
-
-<section class="watch-section" id="watch-section">
-  <h2 class="watch-title">مشاهدة الحلقة 27 و تحميلها</h2>
-  <div class="video-player">
-    <iframe id="videoFrame" allowfullscreen frameborder="0" src="https://filemoon.to/e/m7dpgb0bojks/Ish_Ish_Ep_27" title="مشاهدة الفيلم"></iframe>
-  </div>
-  <div class="download-buttons">
-    <a href="https://filemoon.to/download/m7dpgb0bojks/Ish_Ish_Ep_27" class="btn2" target="_blank">تحميل</a>
-  </div>
-</section>
-
-<footer class="site-footer">© EGY - PRO 2025</footer>
-<script src="../../search.js"></script>
-<script src="../../sw.js"></script>
-<script>(function(s){s.dataset.zone='10146428',s.src='https://al5sm.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script><script>(function(s){s.dataset.zone='10146525',s.src='https://gizokraijaw.net/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script></body>
-</html>
