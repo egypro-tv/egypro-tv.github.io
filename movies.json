@@ -9,7 +9,6 @@
     "from_file": "foreign.html"
   },
   {
-<<<<<<< HEAD
     "title": "Breakdown: 1975 (2025)",
     "url": "agnby/Breakdown_1975/index.html",
     "poster": "agnby/Breakdown_1975/poster.jpg",
@@ -7039,7 +7038,7 @@
     "from_file": "foreign.html"
   },
   {
-    "title": "Tòkunbọ̀ (2024)",
+    "title": "Tokunbo (2024)",
     "url": "agnby/Tòkunbọ̀/index.html",
     "poster": "agnby/Tòkunbọ̀/poster.jpg",
     "rating": "6.7",
@@ -7066,7 +7065,7 @@
     "from_file": "foreign.html"
   },
   {
-    "title": "Aníkúlápó (2022)",
+    "title": "Anikulapo (2022)",
     "url": "agnby/Aníkúlápó/index.html",
     "poster": "agnby/Aníkúlápó/poster.jpg",
     "rating": "7.1",
@@ -10651,130 +10650,20 @@
     "title": "Blue Moon (2025)",
     "url": "agnby/Blue_Moon/index.html",
     "poster": "agnby/Blue_Moon/poster.jpg",
-=======
-    "title": "المداح الجزء الخامس كامل",
-    "url": "series/elmda75/1.html",
-    "poster": "series/elmda75/po.jpg",
     "rating": "9.8",
     "year": "2025"
   },
-  {
-    "title": "حكيم باشا كامل",
-    "url": "series/hakembasha/1.html",
-    "poster": "series/hakembasha/ha.jpg",
-    "rating": "7.0",
-    "year": "2025"
-  },
-  {
-    "title": "سيد الناس كامل",
-    "url": "series/sedelnas/1.html",
-    "poster": "series/sedelnas/se.jpg",
-    "rating": "6.0",
-    "year": "2025"
-  },
-  {
-    "title": "العتاولة 2 كامل",
-    "url": "series/el3twla/1.html",
-    "poster": "series/el3twla/se.jpg",
-    "rating": "7.0",
-    "year": "2025"
-  },
-  {
-    "title": "الغاوي كامل",
-    "url": "series/el8awy/1.html",
-    "poster": "series/el8awy/se.jpg",
-    "rating": "6.5",
-    "year": "2025"
-  },
-  {
-    "title": "ولاد الشمس كامل",
-    "url": "series/wladelshams/1.html",
-    "poster": "series/wladelshams/se.jpg",
-    "rating": "8.0",
-    "year": "2025"
-  },
-  {
-    "title": "إش إش كامل",
-    "url": "series/eshesh/1.html",
-    "poster": "series/eshesh/se.jpg",
-    "rating": "4.0",
-    "year": "2025"
-  },
-  {
-    "title": "اشغال شقة جدا كامل",
-    "url": "series/ash8alsh2agdan/1.html",
-    "poster": "series/ash8alsh2agdan/se.jpg",
-    "rating": "7.7",
-    "year": "2025"
-  },
-  {
-    "title": "عيشة الدور كامل",
-    "url": "series/3yshaeldor/1.html",
-    "poster": "series/3yshaeldor/se.jpg",
-    "rating": "4.0",
-    "year": "2025"
-  },
-  {
-    "title": "كتالوج كامل",
-    "url": "series/katalog/1.html",
-    "poster": "series/katalog/se.jpg",
-    "rating": "6.9",
-    "year": "2025"
-  },
-  {
-    "title": "فهد البطل كامل",
-    "url": "series/fahdelbatal/1.html",
-    "poster": "series/p.jpg",
-    "rating": "10.0",
-    "year": "2025"
-  },
-  {
-    "title": "المداح الجزء الخامس كامل",
-    "url": "series/elmda75/1.html",
-    "poster": "series/elmda75/po.jpg",
-    "rating": "9.8",
-    "year": "2025"
-  },
-  {
-    "title": "حكيم باشا كامل",
-    "url": "series/hakembasha/1.html",
-    "poster": "series/hakembasha/ha.jpg",
-    "rating": "7.0",
-    "year": "2025"
-  },
-  {
-    "title": "سيد الناس كامل",
-    "url": "series/sedelnas/1.html",
-    "poster": "series/sedelnas/se.jpg",
-    "rating": "6.0",
-    "year": "2025"
-  },
-  {
-    "title": "العتاولة 2 كامل",
-    "url": "series/el3twla/1.html",
-    "poster": "series/el3twla/se.jpg",
-    "rating": "7.0",
-    "year": "2025"
-  },
-  {
-    "title": "الغاوي كامل",
-    "url": "series/el8awy/1.html",
-    "poster": "series/el8awy/se.jpg",
-    "rating": "6.5",
-    "year": "2025"
-  },
+
   {
     "title": "Goodbye June (2025)",
     "url": "agnby/Goodbye_June/index.html",
     "poster": "agnby/Goodbye_June/poster.jpg",
->>>>>>> f8ff3c5769cd5d52e2805c53b7dbb96b5008284c
     "rating": "6.8",
     "year": "2025",
     "from_folder": ".",
     "from_file": "foreign.html"
   },
   {
-<<<<<<< HEAD
     "title": "Bugonia (2025)",
     "url": "agnby/Bugonia/index.html",
     "poster": "agnby/Bugonia/poster.jpg",
@@ -12137,7 +12026,6 @@
     "title": "All of You (2025)",
     "url": "agnby/All_of_You/index.html",
     "poster": "agnby/All_of_You/poster.jpg",
-=======
     "title": "Breakdown: 1975 (2025)",
     "url": "agnby/Breakdown_1975/index.html",
     "poster": "agnby/Breakdown_1975/poster.jpg",
@@ -12148,14 +12036,12 @@
     "title": "Raat Akeli Hai - The Bansal Murders (2025)",
     "url": "agnby/Raat_Akeli_Hai_-_The_Bansal_Murders/index.html",
     "poster": "agnby/Raat_Akeli_Hai_-_The_Bansal_Murders/poster.jpg",
->>>>>>> f8ff3c5769cd5d52e2805c53b7dbb96b5008284c
     "rating": "6.2",
     "year": "2025",
     "from_folder": ".",
     "from_file": "foreign.html"
   },
   {
-<<<<<<< HEAD
     "title": "Black Creek (2024)",
     "url": "agnby/Black_Creek/index.html",
     "poster": "agnby/Black_Creek/poster.jpg",
@@ -12744,7 +12630,6 @@
     "title": "Weapons (2025)",
     "url": "agnby/Weapons/index.html",
     "poster": "agnby/Weapons/poster.jpg",
-=======
     "title": "A Time for Bravery (2025)",
     "url": "agnby/A_Time_for_Bravery/index.html",
     "poster": "agnby/A_Time_for_Bravery/poster.jpg",
@@ -12874,14 +12759,12 @@
     "title": "Train Dreams (2025)",
     "url": "agnby/Train_Dreams/index.html",
     "poster": "agnby/Train_Dreams/poster.jpg",
->>>>>>> f8ff3c5769cd5d52e2805c53b7dbb96b5008284c
     "rating": "7.3",
     "year": "2025",
     "from_folder": ".",
     "from_file": "foreign.html"
   },
   {
-<<<<<<< HEAD
     "title": "Karate Kid: Legends (2025)",
     "url": "agnby/Karate_Kid_Legends/index.html",
     "poster": "agnby/Karate_Kid_Legends/poster.jpg",
@@ -12948,7 +12831,6 @@
     "title": "Jack Reacher (2012)",
     "url": "agnby/Jack_Reacher/index.html",
     "poster": "agnby/Jack_Reacher/poster.jpg",
-=======
     "title": "The Follies (2025)",
     "url": "agnby/The_Follies/index.html",
     "poster": "agnby/The_Follies/poster.jpg",
@@ -15738,14 +15620,12 @@
     "title": "Guimoon: The Lightless Door (2021)",
     "url": "agnby/Guimoon_The_Lightless_Door/index.html",
     "poster": "agnby/Guimoon_The_Lightless_Door/poster.jpg",
->>>>>>> f8ff3c5769cd5d52e2805c53b7dbb96b5008284c
     "rating": "6.7",
     "year": "2012",
     "from_folder": ".",
     "from_file": "foreign.html"
   },
   {
-<<<<<<< HEAD
     "title": "Rush (2013)",
     "url": "agnby/Rush/index.html",
     "poster": "agnby/Rush/poster.jpg",
@@ -15807,7 +15687,6 @@
     "year": "2025",
     "from_folder": ".",
     "from_file": "foreign.html"
-=======
     "title": "Chokehold (2023)",
     "url": "agnby/Chokehold/index.html",
     "poster": "agnby/Chokehold/poster.jpg",
@@ -18376,42 +18255,8 @@
     "rating": "7.2",
     "year": "2021"
   },
-  {
-    "title": "ابن القنصل 2010",
-    "url": "movies/ابن_القنصل/index.html",
-    "poster": "movies/ابن_القنصل/poster.jpg",
-    "rating": "6.633",
-    "year": "2010"
-  },
-  {
-    "title": "الفرح 2009",
-    "url": "movies/الفرح/index.html",
-    "poster": "movies/الفرح/poster.jpg",
-    "rating": "6.3",
-    "year": "2009"
-  },
-  {
-    "title": "٦ أيام 2025",
-    "url": "movies/٦_أيام/index.html",
-    "poster": "movies/٦_أيام/poster.jpg",
-    "rating": "10.0",
-    "year": "2025"
-  },
-  {
-    "title": "الهنا اللي أنا فيه 2024",
-    "url": "movies/الهنا_اللي_أنا_فيه/index.html",
-    "poster": "movies/الهنا_اللي_أنا_فيه/poster.jpg",
-    "rating": "5.0",
-    "year": "2024"
-  },
-  {
-    "title": "البحث عن منفذ لخروج السيد رامبو 2025",
-    "url": "movies/البحث_عن_منفذ_لخروج_السيد_رامبو/index.html",
-    "poster": "movies/البحث_عن_منفذ_لخروج_السيد_رامبو/poster.jpg",
-    "rating": "7.071",
-    "year": "2025"
->>>>>>> f8ff3c5769cd5d52e2805c53b7dbb96b5008284c
-  },
+ 
+
   {
     "title": "Millionaire (2025)",
     "url": "agnby/Millionaire/index.html",

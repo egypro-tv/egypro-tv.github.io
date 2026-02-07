@@ -5,20 +5,25 @@ const resultBox = document.getElementById('searchResults');
 
 // 📥 تحميل ملف الأفلام
 async function loadMovies() {
-  const paths = ['../../movies.json'];
+  const paths = [
+    '/movies.json',
+    '../movies.json',
+    '../../movies.json',
+    './movies.json'
+  ];
+
   for (const path of paths) {
     try {
       const response = await fetch(path);
       if (response.ok) {
         movies = await response.json();
-        console.log('✅ تم تحميل البيانات من:', path);
+        console.log('✅ Loaded from:', path);
         return;
       }
-    } catch (e) {
-      // تجاهل الخطأ وجرب المسار التالي
-    }
+    } catch (e) {}
   }
-  console.error('❌ لم يتم العثور على movies.json في أي مسار');
+
+  console.error('❌ movies.json not found in any path');
 }
 
 loadMovies();
@@ -34,9 +39,14 @@ function searchMovies() {
   }
 
   const searchWords = searchTerm.split(/\s+/);
-  const filtered = movies.filter(movie =>
-    searchWords.some(word => movie.title.toLowerCase().includes(word))
-  );
+
+  // 🔹 فلترة حسب title أو year
+  const filtered = movies.filter(movie => {
+    const title = movie.title.toLowerCase();
+    const year = movie.year.toLowerCase(); // لو year string
+
+    return searchWords.some(word => title.includes(word) || year.includes(word));
+  });
 
   if (filtered.length === 0) {
     resultBox.style.display = 'block';
@@ -46,20 +56,26 @@ function searchMovies() {
 
   resultBox.style.display = 'block';
 
-  // 🔍 هل الصفحة فرعية؟
+  // 🔍 هل الصفحة داخل مجلد فرعي؟
   const isSubPage = window.location.pathname.split('/').length > 3;
 
   filtered.forEach(movie => {
     const item = document.createElement('div');
     item.classList.add('search-item');
 
+    // 🔗 تصحيح رابط الفيلم
     const movieUrl = movie.url.startsWith('/') ? movie.url : '/' + movie.url;
 
-    // ✅ لو الصفحة الرئيسية: عرض الصورة + الاسم
-    // ✅ لو صفحة فرعية: عرض الاسم فقط
+    // 🖼️ تصحيح مسار الصورة
+    let posterUrl = movie.poster;
+    if (!posterUrl.startsWith('/')) {
+      posterUrl = '/' + posterUrl;
+    }
+
+    // العرض حسب مكان الصفحة
     if (!isSubPage) {
       item.innerHTML = `
-        <img src="${movie.poster}" alt="${movie.title}" class="search-thumb">
+        <img src="${posterUrl}" alt="${movie.title}" class="search-thumb">
         <span>${movie.title}</span>
       `;
     } else {
@@ -74,6 +90,7 @@ function searchMovies() {
   });
 }
 
+// الأحداث
 searchBtn.addEventListener('click', searchMovies);
 searchInput.addEventListener('keyup', searchMovies);
 
