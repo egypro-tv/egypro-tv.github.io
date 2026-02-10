@@ -3,27 +3,23 @@ const searchInput = document.getElementById('searchInput');
 const searchBtn = document.getElementById('searchBtn');
 const resultBox = document.getElementById('searchResults');
 
-// 📥 تحميل ملف الأفلام
+// 📥 تحميل ملف الأفلام من GitHub مباشرة
 async function loadMovies() {
-  const paths = [
-    '/movies.json',
-    '../movies.json',
-    '../../movies.json',
-    './movies.json'
-  ];
+  const url =
+    'https://raw.githubusercontent.com/egypro-tv/egypro-tv.github.io/refs/heads/main/movies.json';
 
-  for (const path of paths) {
-    try {
-      const response = await fetch(path);
-      if (response.ok) {
-        movies = await response.json();
-        console.log('✅ Loaded from:', path);
-        return;
-      }
-    } catch (e) {}
+  try {
+    const response = await fetch(url, { cache: "no-store" });
+
+    if (!response.ok) {
+      throw new Error("Failed to load movies.json");
+    }
+
+    movies = await response.json();
+    console.log('✅ Loaded movies.json from GitHub');
+  } catch (err) {
+    console.error('❌ Error loading movies.json:', err);
   }
-
-  console.error('❌ movies.json not found in any path');
 }
 
 loadMovies();
@@ -43,9 +39,11 @@ function searchMovies() {
   // 🔹 فلترة حسب title أو year
   const filtered = movies.filter(movie => {
     const title = movie.title.toLowerCase();
-    const year = movie.year.toLowerCase(); // لو year string
+    const year = String(movie.year).toLowerCase();
 
-    return searchWords.some(word => title.includes(word) || year.includes(word));
+    return searchWords.some(word =>
+      title.includes(word) || year.includes(word)
+    );
   });
 
   if (filtered.length === 0) {
@@ -72,7 +70,6 @@ function searchMovies() {
       posterUrl = '/' + posterUrl;
     }
 
-    // العرض حسب مكان الصفحة
     if (!isSubPage) {
       item.innerHTML = `
         <img src="${posterUrl}" alt="${movie.title}" class="search-thumb">
