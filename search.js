@@ -24,7 +24,6 @@ async function loadMovies() {
 
 loadMovies();
 
-// 🧠 البحث
 function searchMovies() {
   const searchTerm = searchInput.value.toLowerCase().trim();
   resultBox.innerHTML = '';
@@ -36,15 +35,36 @@ function searchMovies() {
 
   const searchWords = searchTerm.split(/\s+/);
 
-  // 🔹 فلترة حسب title أو year
-  const filtered = movies.filter(movie => {
-    const title = movie.title.toLowerCase();
-    const year = String(movie.year).toLowerCase();
+  const filtered = movies
+    .map(movie => {
+      const title = movie.title.toLowerCase();
+      const year = String(movie.year).toLowerCase();
 
-    return searchWords.some(word =>
-      title.includes(word) || year.includes(word)
-    );
-  });
+      let score = 0;
+
+      searchWords.forEach(word => {
+        const titleWords = title.split(/\s+/);
+
+        // 🔹 مطابقة كلمة كاملة
+        if (titleWords.includes(word)) {
+          score += 3; // أقوى تطابق
+        }
+
+        // 🔹 لو العنوان يبدأ بالكلمة
+        if (title.startsWith(word)) {
+          score += 2;
+        }
+
+        // 🔹 لو السنة مطابقة
+        if (year === word) {
+          score += 2;
+        }
+      });
+
+      return { movie, score };
+    })
+    .filter(item => item.score > 0)
+    .sort((a, b) => b.score - a.score); // ترتيب حسب القوة
 
   if (filtered.length === 0) {
     resultBox.style.display = 'block';
@@ -54,38 +74,38 @@ function searchMovies() {
 
   resultBox.style.display = 'block';
 
-  // 🔍 هل الصفحة داخل مجلد فرعي؟
   const isSubPage = window.location.pathname.split('/').length > 3;
 
-  filtered.forEach(movie => {
-    const item = document.createElement('div');
-    item.classList.add('search-item');
+  filtered.forEach(item => {
+    const movie = item.movie;
 
-    // 🔗 تصحيح رابط الفيلم
     const movieUrl = movie.url.startsWith('/') ? movie.url : '/' + movie.url;
 
-    // 🖼️ تصحيح مسار الصورة
     let posterUrl = movie.poster;
     if (!posterUrl.startsWith('/')) {
       posterUrl = '/' + posterUrl;
     }
 
+    const div = document.createElement('div');
+    div.classList.add('search-item');
+
     if (!isSubPage) {
-      item.innerHTML = `
+      div.innerHTML = `
         <img src="${posterUrl}" alt="${movie.title}" class="search-thumb">
         <span>${movie.title}</span>
       `;
     } else {
-      item.innerHTML = `<span>${movie.title}</span>`;
+      div.innerHTML = `<span>${movie.title}</span>`;
     }
 
-    item.onclick = () => {
+    div.onclick = () => {
       location.href = movieUrl;
     };
 
-    resultBox.appendChild(item);
+    resultBox.appendChild(div);
   });
 }
+
 
 // الأحداث
 searchBtn.addEventListener('click', searchMovies);
