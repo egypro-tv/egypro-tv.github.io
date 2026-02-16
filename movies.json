@@ -1,4 +1,332 @@
 [
+
+  {
+    "title": "العتاولة 2 2025",
+    "url": "series/العتاولة_2/1.html",
+    "poster": "series/العتاولة_2/poster.jpg",
+    "rating": "7.0",
+    "year": "2025",
+    "from_folder": ".",
+    "from_file": "seriesar.html"
+  },
+  {
+    "title": "المداح: أسطورة العهد 2025",
+    "url": "series/المداح_5/1.html",
+    "poster": "series/المداح_5/poster.jpg",
+    "rating": "7.2",
+    "year": "2025",
+    "from_folder": ".",
+    "from_file": "seriesar.html"
+  },
+  {
+    "title": "اشغال شفة جدا 2025",
+    "url": "series/اشغال_شقة_جدا/1.html",
+    "poster": "series/اشغال_شقة_جدا/poster.jpg",
+    "rating": "7.7",
+    "year": "2025",
+    "from_folder": ".",
+    "from_file": "seriesar.html"
+  },
+  {
+    "title": "ولاد الشمس 2025",
+    "url": "series/ولاد_الشمس/1.html",
+    "poster": "series/ولاد_الشمس/poster.jpg",
+    "rating": "8.0",
+    "year": "2025",
+    "from_folder": ".",
+    "from_file": "seriesar.html"
+  },
+  {
+    "title": "وتقابل حبيب 2025",
+    "url": "series/وتقابل_حبيب/1.html",
+    "poster": "series/وتقابل_حبيب/poster.jpg",
+    "rating": "4.0",
+    "year": "2025",
+    "from_folder": ".",
+    "from_file": "seriesar.html"
+  },
+  {
+    "title": "وتر حساس 2024",
+    "url": "series/وتر_حساس/1.html",
+    "poster": "series/وتر_حساس/poster.jpg",
+    "rating": "5.0",
+    "year": "2024",
+    "from_folder": ".",
+    "from_file": "seriesar.html"
+  },
+  {
+    "title": "نعمة الافوكاتو 2024",
+    "url": "series/نعمة_الافوكاتو/1.html",
+    "poster": "series/نعمة_الافوكاتو/poster.jpg",
+    "rating": "9.0",
+    "year": "2024",
+    "from_folder": ".",
+    "from_file": "seriesar.html"
+  },
+  {
+    "title": "ميد تيرم 2025",
+    "url": "series/ميد_تيرم/1.html",
+    "poster": "series/ميد_تيرم/poster.jpg",
+    "rating": "9.667",
+    "year": "2025",
+    "from_folder": ".",
+    "from_file": "seriesar.html"
+  },
+  {
+    "title": "منتهي الصلاحية 2025",
+    "url": "series/منتهي_الصلاحية/1.html",
+    "poster": "series/منتهي_الصلاحية/poster.jpg",
+    "rating": "5.0",
+    "year": "2025",
+    "from_folder": ".",
+    "from_file": "seriesar.html"
+  },
+  {
+    "title": "مملكة الحرير 2025",
+    "url": "series/مملكة_الحرير/1.html",
+    "poster": "series/مملكة_الحرير/poster.jpg",
+    "rating": "4.0",
+    "year": "2025",
+    "from_folder": ".",
+    "from_file": "seriesar.html"
+  },
+  {
+    "title": "لام شمسية 2025",
+    "url": "series/لام_شمسية/1.html",
+    "poster": "series/لام_شمسية/poster.jpg",
+    "rating": "9.0",
+    "year": "2025",
+    "from_folder": ".",
+    "from_file": "seriesar.html"
+  },
+  {
+    "title": "كوبرا 2024",
+    "url": "series/كوبرا/1.html",
+    "poster": "series/كوبرا/poster.jpg",
+    "rating": "9.0",
+    "year": "2024",
+    "from_folder": ".",
+    "from_file": "seriesar.html"
+  },
+  {
+    "title": "كتالوج 2025",
+    "url": "series/كتالوج/1.html",
+    "poster": "series/كتالوج/poster.jpg",
+    "rating": "6.667",
+    "year": "2025",
+    "from_folder": ".",
+    "from_file": "seriesar.html"
+  },
+  {
+    "title": "قهوة المحطة 2025",
+    "url": "series/قهوة_المحطة/1.html",
+    "poster": "series/قهوة_المحطة/poster.jpg",
+    "rating": "2.0",
+    "year": "2025",
+    "from_folder": ".",
+    "from_file": "seriesar.html"
+  },
+  {
+    "title": "قلبي ومفتاحه 2025",
+    "url": "series/قلبي_ومفتاحه/1.html",
+    "poster": "series/قلبي_ومفتاحه/poster.jpg",
+    "rating": "7.333",
+    "year": "2025",
+    "from_folder": ".",
+    "from_file": "seriesar.html"
+  },
+  {
+    "title": "فهد البطل 2025",
+    "url": "series/فهد_البطل/1.html",
+    "poster": "series/فهد_البطل/poster.jpg",
+    "rating": "3.5",
+    "year": "2025",
+    "from_folder": ".",
+    "from_file": "seriesar.html"
+  },
+  {
+    "title": "فات الميعاد 2025",
+    "url": "series/فات_الميعاد/1.html",
+    "poster": "series/فات_الميعاد/poster.jpg",
+    "rating": "3.0",
+    "year": "2025",
+    "from_folder": ".",
+    "from_file": "seriesar.html"
+  },
+  {
+    "title": "عقبال عندكوا 2025",
+    "url": "series/عقبال_عندكوا/1.html",
+    "poster": "series/عقبال_عندكوا/poster.jpg",
+    "rating": "0.0",
+    "year": "2025",
+    "from_folder": ".",
+    "from_file": "seriesar.html"
+  },
+  {
+    "title": "عايشة الدور 2025",
+    "url": "series/عايشة_الدور/1.html",
+    "poster": "series/عايشة_الدور/poster.jpg",
+    "rating": "4.0",
+    "year": "2025",
+    "from_folder": ".",
+    "from_file": "seriesar.html"
+  },
+  {
+    "title": "شهادة معاملة أطفال 2025",
+    "url": "series/شهادة_معاملة_أطفال/1.html",
+    "poster": "series/شهادة_معاملة_أطفال/poster.jpg",
+    "rating": "1.0",
+    "year": "2025",
+    "from_folder": ".",
+    "from_file": "seriesar.html"
+  },
+  {
+    "title": "شباب امرأة 2025",
+    "url": "series/شباب_امرأة/1.html",
+    "poster": "series/شباب_امرأة/poster.jpg",
+    "rating": "3.0",
+    "year": "2025",
+    "from_folder": ".",
+    "from_file": "seriesar.html"
+  },
+  {
+    "title": "سيد الناس 2025",
+    "url": "series/سيد_الناس/1.html",
+    "poster": "series/سيد_الناس/poster.jpg",
+    "rating": "6.0",
+    "year": "2025",
+    "from_folder": ".",
+    "from_file": "seriesar.html"
+  },
+  {
+    "title": "حكيم باشا 2025",
+    "url": "series/حكيم_باشا/1.html",
+    "poster": "series/حكيم_باشا/poster.jpg",
+    "rating": "7.0",
+    "year": "2025",
+    "from_folder": ".",
+    "from_file": "seriesar.html"
+  },
+  {
+    "title": "حق عرب 2024",
+    "url": "series/حق_عرب/1.html",
+    "poster": "series/حق_عرب/poster.jpg",
+    "rating": "5.0",
+    "year": "2024",
+    "from_folder": ".",
+    "from_file": "seriesar.html"
+  },
+  {
+    "title": "حسبة عمري 2025",
+    "url": "series/حسبة_عمري/1.html",
+    "poster": "series/حسبة_عمري/poster.jpg",
+    "rating": "3.0",
+    "year": "2025",
+    "from_folder": ".",
+    "from_file": "seriesar.html"
+  },
+  {
+    "title": "حرب الجبالي 2025",
+    "url": "series/حرب_الجبالي/1.html",
+    "poster": "series/حرب_الجبالي/poster.jpg",
+    "rating": "7.0",
+    "year": "2025",
+    "from_folder": ".",
+    "from_file": "seriesar.html"
+  },
+  {
+    "title": "الكابتن 2025",
+    "url": "series/الكابتن/1.html",
+    "poster": "series/الكابتن/poster.jpg",
+    "rating": "1.0",
+    "year": "2025",
+    "from_folder": ".",
+    "from_file": "seriesar.html"
+  },
+  {
+    "title": "الغاوي 2025",
+    "url": "series/الغاوي/1.html",
+    "poster": "series/الغاوي/poster.jpg",
+    "rating": "6.5",
+    "year": "2025",
+    "from_folder": ".",
+    "from_file": "seriesar.html"
+  },
+  {
+    "title": "الشرنقة 2025",
+    "url": "series/الشرنقة/1.html",
+    "poster": "series/الشرنقة/poster.jpg",
+    "rating": "3.0",
+    "year": "2025",
+    "from_folder": ".",
+    "from_file": "seriesar.html"
+  },
+  {
+    "title": "الحلانجي 2025",
+    "url": "series/الحلانجي/1.html",
+    "poster": "series/الحلانجي/poster.jpg",
+    "rating": "2.0",
+    "year": "2025",
+    "from_folder": ".",
+    "from_file": "seriesar.html"
+  },
+  {
+    "title": "إش إش 2025",
+    "url": "series/إش_إش/1.html",
+    "poster": "series/إش_إش/poster.jpg",
+    "rating": "4.0",
+    "year": "2025",
+    "from_folder": ".",
+    "from_file": "seriesar.html"
+  },
+  {
+    "title": "أعلى نسبة مشاهدة 2024",
+    "url": "series/أعلى_نسبة_مشاهدة/1.html",
+    "poster": "series/أعلى_نسبة_مشاهدة/poster.jpg",
+    "rating": "6.5",
+    "year": "2024",
+    "from_folder": ".",
+    "from_file": "seriesar.html"
+  },
+  {
+    "title": "اثينا 2025",
+    "url": "series/اثينا/1.html",
+    "poster": "series/اثينا/poster.jpg",
+    "rating": "5.0",
+    "year": "2025",
+    "from_folder": ".",
+    "from_file": "seriesar.html"
+  },
+  {
+    "title": "٨٠ باكو 2025",
+    "url": "series/٨٠_باكو/1.html",
+    "poster": "series/٨٠_باكو/poster.jpg",
+    "rating": "6.667",
+    "year": "2025",
+    "from_folder": ".",
+    "from_file": "seriesar.html"
+  },
+  {
+    "title": "220 يوم 2025",
+    "url": "series/220_يوم/1.html",
+    "poster": "series/220_يوم/poster.jpg",
+    "rating": "6.0",
+    "year": "2025",
+    "from_folder": ".",
+    "from_file": "seriesar.html"
+  },
+  {
+    "title": "2 قهوة 2025",
+    "url": "series/2_قهوة/1.html",
+    "poster": "series/2_قهوة/poster.jpg",
+    "rating": "4.0",
+    "year": "2025",
+    "from_folder": ".",
+    "from_file": "seriesar.html"
+  },
+
+
+
     {
         "title": "Goodbye June (2025)",
         "url": "agnby/Goodbye_June/index.html",

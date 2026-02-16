@@ -884,7 +884,33 @@ body{
 
 
 
+<style>
+  .episodes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  /* ✅ يخليهم في المنتصف */
+    gap: 10px;                /* ✅ مسافة بين الأزرار */
+    max-width: 900px;         /* عرض أقصى للمجموعة */
+    margin: 40px auto;        /* مساحة من فوق وتحت + توسيط */
+  }
 
+  .btn3 {
+    background: #ffcc00;      /* 🟡 أصفر */
+    color: #000;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 6px;
+    transition: 0.3s;
+    font-weight: bold;
+    min-width: 100px;         /* ✅ يخليهم بنفس العرض تقريبًا */
+    text-align: center;
+  }
+
+  .btn3:hover {
+    background: #e6b800;      /* 🟡 أصفر أغمق عند التمرير */
+  }
 
 
 
